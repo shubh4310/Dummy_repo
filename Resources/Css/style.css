@@ -1,0 +1,150 @@
+
+*{
+    padding: 0 px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    
+    color: #4e4b4b;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+   background-image: url(Img/hero.jpg);
+}
+
+.row_1{
+    max-width: 1140 px;
+   margin: 0;
+    
+    
+}
+
+header{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 0, 0, 0.74)),url(Img/hero.jpg);
+    background-position: top;
+    background-size:cover;
+    height: 100vh;
+    
+}
+
+h1{
+    margin: 0;
+    color: azure;
+}
+
+body{
+    margin: 0;
+}
+
+.hero_text_box{
+position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 5%;
+    
+}
+.heading{
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: #fff;
+}
+.btn{
+    display: inline-block;
+   text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 200px;
+    border:1px solid #2ecc71;
+   
+     
+}
+
+.btn:hover{
+    
+    background-color: #229552;
+    font-size: 25px;
+    transition: 1s;
+    border:1px solid #229552;
+}
+.btn_full{
+   background-color: #2ecc71;
+    font-style: oblique;
+    border:1px solid #2ecc71;
+}
+.btn_ghost{
+    background-color: #2ecc71;
+     border:1px solid #2ecc71;
+}
+.btn_ghost:hover{
+    background-color: #229552;
+     border:1px solid #229552;
+    font-size: 25px;
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-left: 39px;
+    margin-top: 29px;
+}
+
+.main_nav{
+    
+float: right;
+    list-style: none;
+    margin-right: 39px;
+    
+}
+.main_nav li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 39px;
+    
+}
+
+.main_nav li a{
+       text-decoration: none;
+    font-size: 20px;
+     color: #fff;
+     padding: 10px 30px;
+      letter-spacing: 2px;
+    word-spacing: 3px;
+    font-style: italic;
+    text-transform: uppercase; 
+    
+}
+
+.main_nav li a:hover{
+      text-decoration: underline;
+    text-decoration-color: #229552;
+   
+}
+
+.bottom{
+    background-color: #3e3d3d;
+       color: #fff;
+  padding: 20px;
+      letter-spacing: 1px;
+    word-spacing: 3px;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+
